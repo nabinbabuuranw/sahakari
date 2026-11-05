@@ -1,0 +1,37 @@
+{
+  "name": "sahakari",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.api.json",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.api.json && vite build && node api/build.mjs",
+    "test": "node --test api/test/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource/newsreader": "^5.3.0",
+    "@fontsource/noto-sans-devanagari": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "esbuild": "^0.21.5",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "description": "Sahakari: members, savings, loans and cash ledger for savings and loan cooperatives in Nepal",
+  "license": "MIT"
+}
