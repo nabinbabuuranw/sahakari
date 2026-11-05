@@ -1,0 +1,88 @@
+{
+  "url": "https://coolors.co/335c67-fff3b0-e09f3e-9e2a2b-540b0e",
+  "name": "Coolors popular palette: teal, cream, mustard, oxblood, maroon (read anonymously from the public popular list; not from Nabin's logged-in account)",
+  "source_colors": [
+    "#335C67",
+    "#FFF3B0",
+    "#E09F3E",
+    "#9E2A2B",
+    "#540B0E"
+  ],
+  "colors": {
+    "ink": "#1C2A2E",
+    "paper": "#F6F1E3",
+    "surface": "#FCFAF3",
+    "line": "#D9D1BC",
+    "muted": "#5A5F5C",
+    "primary": "#335C67",
+    "primaryHover": "#284A53",
+    "primarySoft": "#E4ECEC",
+    "accent": "#E09F3E",
+    "accentText": "#8A5514",
+    "success": "#335C67",
+    "danger": "#9E2A2B",
+    "dangerSoft": "#F5E1DF"
+  },
+  "derivation": {
+    "paper": "tint of #FFF3B0 pulled toward neutral cream (the palette's yellow is too strong for a page background)",
+    "surface": "lighter cream for cards and fields",
+    "ink": "#335C67 darkened to near-black teal for body text",
+    "muted": "neutral grey-green from the ink family",
+    "line": "warm hairline from the cream",
+    "primaryHover": "#335C67 darkened 10%",
+    "primarySoft": "#335C67 at ~15% over white",
+    "accentText": "#E09F3E darkened, because the mustard itself is 3.35:1 on paper and fails text contrast",
+    "dangerSoft": "#9E2A2B at ~12% over paper",
+    "success": "reuses the primary teal for paid entries (no extra green)"
+  },
+  "contrast": [
+    {
+      "pair": "ink on paper",
+      "ratio": 13.11
+    },
+    {
+      "pair": "ink on surface",
+      "ratio": 14.16
+    },
+    {
+      "pair": "muted on paper",
+      "ratio": 5.77
+    },
+    {
+      "pair": "muted on surface",
+      "ratio": 6.23
+    },
+    {
+      "pair": "onPrimary on primary",
+      "ratio": 7.32
+    },
+    {
+      "pair": "primary on paper",
+      "ratio": 6.49
+    },
+    {
+      "pair": "danger on paper",
+      "ratio": 6.6
+    },
+    {
+      "pair": "accentText on paper",
+      "ratio": 5.49
+    },
+    {
+      "pair": "accentText on surface",
+      "ratio": 5.93
+    },
+    {
+      "pair": "ink on primarySoft",
+      "ratio": 12.33
+    },
+    {
+      "pair": "danger on dangerSoft",
+      "ratio": 5.93
+    },
+    {
+      "pair": "onPrimary on primaryHover",
+      "ratio": 9.57
+    }
+  ]
+}
